@@ -1,0 +1,9 @@
+{
+  "name": "GTA Dryer Vent Guide",
+  "short_name": "Dryer Vent Guide",
+  "start_url": "/gta-dryer-vent-guide/",
+  "display": "standalone",
+  "background_color": "#fffdf8",
+  "theme_color": "#102b3a",
+  "icons": []
+}

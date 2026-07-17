@@ -1,0 +1,22 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/dryer-vent-cleaning-mississauga"
+  to = "/areas/mississauga.html"
+  status = 301
+
+[[redirects]]
+  from = "/dryer-vent-cleaning-oakville"
+  to = "/areas/oakville.html"
+  status = 301
+
+[[redirects]]
+  from = "/dryer-vent-cleaning-vaughan"
+  to = "/areas/vaughan.html"
+  status = 301
+
+[[redirects]]
+  from = "/dryer-vent-cleaning-brampton"
+  to = "/areas/brampton.html"
+  status = 301

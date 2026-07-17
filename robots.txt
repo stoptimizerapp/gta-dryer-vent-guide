@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stoptimizerapp.github.io/gta-dryer-vent-guide/sitemap.xml
