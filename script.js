@@ -28,21 +28,6 @@ document.querySelectorAll("[data-faq-button]").forEach((button) => {
   });
 });
 
-document.querySelectorAll("[data-quote-form]").forEach((form) => {
-  form.addEventListener("submit", (event) => {
-    const hasConnectedEndpoint = form.dataset.endpointConnected === "true";
-    if (hasConnectedEndpoint) return;
-
-    event.preventDefault();
-    const status = form.querySelector("[data-form-status]");
-    if (status) {
-      status.textContent = "Quote intake is not connected yet. Please check back soon while the secure form endpoint is configured.";
-      status.classList.add("is-visible");
-      status.focus();
-    }
-  });
-});
-
 document.querySelectorAll("[data-current-year]").forEach((element) => {
   element.textContent = String(new Date().getFullYear());
 });

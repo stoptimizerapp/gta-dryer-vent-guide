@@ -341,68 +341,15 @@
             <li>Provider confirms the final scope and price</li>
           </ul>
         </div>
-        <form class="quote-form" name="dryer-vent-quote" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field" data-quote-form>
-          <input type="hidden" name="form-name" value="dryer-vent-quote">
-          <p hidden><label>Do not fill this out: <input name="bot-field"></label></p>
+        <div class="quote-form quote-embed">
           <h3>Your no-obligation quote request</h3>
-          <p class="form-note">Fields marked * are required. Your request is not posted publicly.</p>
-          <div class="form-grid">
-            <div>
-              <label for="city">City *</label>
-              <select id="city" name="city" required>
-                <option value="">Choose a city</option>
-                <option>Toronto</option><option>Mississauga</option><option>Oakville</option><option>Vaughan</option><option>Brampton</option><option>Other GTA</option>
-              </select>
-            </div>
-            <div>
-              <label for="postal">Postal code *</label>
-              <input id="postal" name="postal-code" type="text" inputmode="text" autocomplete="postal-code" placeholder="M5V 2T6" pattern="[A-Za-z][0-9][A-Za-z][ -]?[0-9][A-Za-z][0-9]" title="Enter a Canadian postal code" required>
-            </div>
-            <div>
-              <label for="property">Property type *</label>
-              <select id="property" name="property-type" required>
-                <option value="">Choose one</option><option>Detached or semi-detached home</option><option>Townhouse</option><option>Condo apartment</option><option>Rental or multi-unit property</option><option>Commercial laundry</option><option>Other</option>
-              </select>
-            </div>
-            <div>
-              <label for="timeframe">Preferred timing *</label>
-              <select id="timeframe" name="timeframe" required>
-                <option value="">Choose one</option><option>As soon as possible</option><option>Within one week</option><option>Within one month</option><option>Planning ahead</option>
-              </select>
-            </div>
-            <div class="field-full">
-              <label for="concern">What are you noticing? *</label>
-              <select id="concern" name="concern" required>
-                <option value="">Choose the closest match</option><option>Long drying times</option><option>Excess heat</option><option>Burning or musty smell</option><option>Weak exterior airflow</option><option>Routine maintenance</option><option>Possible vent damage or disconnection</option><option>Other / not sure</option>
-              </select>
-            </div>
-            <div class="field-full">
-              <label for="details">Vent or access details</label>
-              <textarea id="details" name="details" placeholder="Example: second-floor laundry, exterior outlet on the side wall, condo management requires proof of insurance…"></textarea>
-            </div>
-            <div>
-              <label for="name">Name *</label>
-              <input id="name" name="name" type="text" autocomplete="name" required>
-            </div>
-            <div>
-              <label for="phone">Phone *</label>
-              <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(416) 555-0123" pattern="[0-9+() .-]{10,}" title="Enter a valid phone number" required>
-            </div>
-            <div class="field-full">
-              <label for="email">Email <span class="optional-label">(optional)</span></label>
-              <input id="email" name="email" type="email" autocomplete="email">
-            </div>
-            <div class="field-full checkbox-row">
-              <input id="consent" name="consent" type="checkbox" value="yes" required>
-              <label for="consent">I agree that GTA Dryer Vent Guide may share this request and my contact information with one participating local provider so they can contact me about a quote. I understand this site does not perform the work. *</label>
-            </div>
-            <div class="field-full">
-              <button class="button" type="submit">Request my local quote</button>
-              <p class="microcopy">By submitting, you also agree to our <a href="/privacy.html">Privacy Policy</a> and <a href="/terms.html">Terms</a>.</p>
-              <p class="form-status" tabindex="-1" role="status" data-form-status></p>
-            </div>
+          <p class="form-note">Fields marked * are required. Your request is stored securely in Google Forms and is not posted publicly.</p>
+          <div class="google-form-frame">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNopIhlhIA33asOTFotW27xGTPCBQ7Ck7IfcLYimOfpr52TA/viewform?embedded=true" title="GTA Dryer Vent Quote Request" loading="lazy">Loading the GTA Dryer Vent Quote Request form…</iframe>
           </div>
-        </form>
+          <p class="microcopy">By submitting, you consent to the contact-sharing statement in the form and acknowledge our <a href="/privacy.html">Privacy Policy</a> and <a href="/terms.html">Terms</a>.</p>
+          <p class="form-fallback">Form not displaying? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdNopIhlhIA33asOTFotW27xGTPCBQ7Ck7IfcLYimOfpr52TA/viewform" target="_blank" rel="noopener">Open the secure quote form in a new tab</a>.</p>
+        </div>
       </div>
     </section>
 

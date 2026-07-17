@@ -50,7 +50,7 @@ Ranges are rounded planning ranges, not exact forecasts. Advertiser competition 
 - No `LocalBusiness` schema, fake address, fake reviews, fake phone number or fake service history.
 - XML sitemap and robots file.
 - Responsive CSS, keyboard focus, skip links, reduced-motion support and labelled forms.
-- Netlify-compatible lead form with required referral consent and spam honeypot.
+- Published Google Form embedded on the homepage with service-qualification fields, required referral consent and new-response email notifications.
 - Safety claims linked to Toronto Fire Services, Health Canada and Natural Resources Canada.
 
 ## Authority plan for the first 90 days
