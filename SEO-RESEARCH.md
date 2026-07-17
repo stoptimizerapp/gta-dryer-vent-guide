@@ -44,6 +44,9 @@ Ranges are rounded planning ranges, not exact forecasts. Advertiser competition 
 - One unique title, description, canonical URL and H1 per indexable page.
 - Semantic internal links among city, service and informational pages.
 - `Organization`, `WebSite`, `WebPage`, `Article`, `BreadcrumbList` and honest `FAQPage` structured data.
+- Visible organizational author/reviewer attribution and a linked editorial-methodology section.
+- A dated five-provider GTA pricing study with source links, scope notes and evidence limits.
+- Open Graph and large-card social metadata with a branded sharing image.
 - No `LocalBusiness` schema, fake address, fake reviews, fake phone number or fake service history.
 - XML sitemap and robots file.
 - Responsive CSS, keyboard focus, skip links, reduced-motion support and labelled forms.

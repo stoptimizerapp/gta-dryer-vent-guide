@@ -13,3 +13,6 @@
 
 /favicon.svg
   Cache-Control: public, max-age=2592000
+
+/og-social.png
+  Cache-Control: public, max-age=2592000

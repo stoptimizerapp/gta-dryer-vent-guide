@@ -1,4 +1,4 @@
-# GTA Dryer Vent Guide — launch notes
+# GTA Dryer Vent Guide — operating notes
 
 This is a complete static HTML/CSS/JavaScript lead-generation site for a transparent dryer vent cleaning referral model in Toronto and the GTA.
 
@@ -14,7 +14,7 @@ Open `http://127.0.0.1:4174/`.
 
 ## Live domain
 
-The production domain is `https://gtadryerventguide.ca/`. Canonical tags, structured data, the sitemap, robots file and internal paths are configured for that domain. The `www` variant should point to `stoptimizerapp.github.io` and redirect to the apex domain through GitHub Pages.
+The production domain is `https://gtadryerventguide.ca/`. HTTPS, the apex domain and the `www` redirect are active through GitHub Pages. Canonical tags, structured data, the sitemap, robots file and internal paths use the production domain.
 
 ## Form setup
 
@@ -27,7 +27,7 @@ The quote form is Netlify Forms-compatible and includes:
 - thank-you page;
 - local preview behaviour in `script.js`.
 
-Before launch:
+Before accepting leads:
 
 1. Deploy to a Netlify site or adapt the form to your chosen host/CRM.
 2. Submit a real test and confirm it appears in the form dashboard.
@@ -36,14 +36,16 @@ Before launch:
 5. Define response time, service area, excluded jobs and lead-data deletion rules in the partner agreement.
 6. Test the consent and privacy workflow again after adding analytics or call tracking.
 
-GitHub Pages is static and does not process form submissions. While hosted there, `script.js` keeps the form in a safe “not connected yet” mode instead of sending data to a dead endpoint. Connect Formspree, Basin, a serverless function or another secure form service before accepting live requests.
+GitHub Pages is static and does not process form submissions. While no endpoint is connected, `script.js` keeps the form in a safe “not connected yet” mode instead of sending data to a dead endpoint. A Google Form, Formspree, Basin or a serverless endpoint can provide intake; test the complete consent, notification and response workflow before enabling it.
 
-## Required launch edits
+## Remaining commercial activation tasks
 
-- Register the domain and activate `hello@` and `privacy@` mailboxes.
+- Connect and test the quote form, including lead notifications.
+- Activate monitored `hello@` and `privacy@` mailboxes.
 - Put the final legal business identity and contact details into the Privacy Policy and Terms.
 - Have those policies reviewed for the actual company, hosting, analytics, CRM and provider agreement.
 - Confirm a legitimate provider partner and the process for checking its insurance and capabilities.
+- Verify the domain in Google Search Console and submit `/sitemap.xml`.
 - Do not add a fake address, fake phone, fake reviews, fake certifications or `LocalBusiness` schema.
 - Do not create a Google Business Profile for this referral site. A real provider may manage its own eligible profile.
 
