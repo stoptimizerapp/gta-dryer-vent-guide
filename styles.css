@@ -961,6 +961,43 @@ textarea:focus {
   text-transform: uppercase;
 }
 
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.8rem;
+  margin: 0.8rem 0 2rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.article-meta span + span::before {
+  margin-right: 0.8rem;
+  content: "\2022";
+  color: #9aa5aa;
+}
+
+.article-meta a {
+  font-weight: 750;
+}
+
+.research-summary {
+  margin: 1.8rem 0;
+  padding: clamp(1.2rem, 3vw, 1.7rem);
+  border-left: 0.35rem solid var(--orange);
+  background: var(--cream);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.research-summary h2,
+.research-summary h3 {
+  margin-top: 0;
+}
+
+.source-note {
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
 .notice {
   margin: 1.5rem 0;
   padding: 1rem 1.1rem;
