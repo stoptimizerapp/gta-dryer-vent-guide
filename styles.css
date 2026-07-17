@@ -446,6 +446,14 @@ p {
   color: var(--white);
 }
 
+.section-dark .card {
+  color: var(--ink);
+}
+
+.section-dark .card h3 {
+  color: var(--navy);
+}
+
 .section-heading {
   max-width: 48rem;
   margin-bottom: 2.2rem;
