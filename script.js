@@ -30,16 +30,13 @@ document.querySelectorAll("[data-faq-button]").forEach((button) => {
 
 document.querySelectorAll("[data-quote-form]").forEach((form) => {
   form.addEventListener("submit", (event) => {
-    const isLocal = ["localhost", "127.0.0.1"].includes(window.location.hostname);
-    const isGitHubPages = window.location.hostname.endsWith(".github.io");
-    if (!isLocal && !isGitHubPages) return;
+    const hasConnectedEndpoint = form.dataset.endpointConnected === "true";
+    if (hasConnectedEndpoint) return;
 
     event.preventDefault();
     const status = form.querySelector("[data-form-status]");
     if (status) {
-      status.textContent = isGitHubPages
-        ? "Quote intake is not connected yet. Please check back soon while the secure form endpoint is configured."
-        : "Preview mode: the form is valid. Connect the deployed form to your email or CRM before launch.";
+      status.textContent = "Quote intake is not connected yet. Please check back soon while the secure form endpoint is configured.";
       status.classList.add("is-visible");
       status.focus();
     }

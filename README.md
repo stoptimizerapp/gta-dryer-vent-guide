@@ -12,17 +12,9 @@ python3 -m http.server 4174 --bind 127.0.0.1
 
 Open `http://127.0.0.1:4174/`.
 
-## Live GitHub Pages URL and proposed domain
+## Live domain
 
-The initial deployment uses `https://stoptimizerapp.github.io/gta-dryer-vent-guide/` in canonical tags, structured data, the sitemap and internal paths. The proposed permanent domain is `https://gtadryerventguide.ca/`. CIRA WHOIS returned `Not found` for the name on July 16, 2026, but availability is not guaranteed until registration is completed.
-
-After registering the permanent domain and adding it to GitHub Pages, replace every GitHub Pages URL and remove `/gta-dryer-vent-guide/` from internal asset/navigation paths:
-
-```bash
-rg -l 'stoptimizerapp\.github\.io/gta-dryer-vent-guide' .
-```
-
-Review the matching files, then update canonical URLs, JSON-LD, sitemap and the robots file together. Keep or activate the `gtadryerventguide.ca` email addresses separately.
+The production domain is `https://gtadryerventguide.ca/`. Canonical tags, structured data, the sitemap, robots file and internal paths are configured for that domain. The `www` variant should point to `stoptimizerapp.github.io` and redirect to the apex domain through GitHub Pages.
 
 ## Form setup
 
