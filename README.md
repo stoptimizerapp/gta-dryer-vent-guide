@@ -54,6 +54,12 @@ Analytics is off by default. After a visitor accepts the consent prompt, the sit
 5. Review Firebase Analytics acquisition and quote-funnel events without treating form opens as confirmed leads.
 6. Monitor valid form submissions and provider-confirmed qualified leads separately.
 
+## Search-engine submissions
+
+- Google Search Console owns the verified URL-prefix property for `https://gtadryerventguide.ca/`; `/sitemap.xml` was submitted successfully on July 19, 2026.
+- Bing Webmaster Tools imported the same verified property and sitemap from Search Console on July 19, 2026.
+- The root-level IndexNow key file is permanent proof of ownership for submitting changed URLs to participating search engines. Keep `25daf048cea6bc01e57ca9fbc3b01d16.txt` deployed and submit only canonical URLs after meaningful additions or updates.
+
 ## Files
 
 - `index.html`: Toronto/GTA landing page and embedded Google Form
